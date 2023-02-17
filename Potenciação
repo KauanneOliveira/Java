@@ -1,0 +1,21 @@
+//Ler numero e exibir o quadrado
+import java.util.Scanner;
+public class Main
+{
+	public static void main (String[] args)
+	{
+    //criando obj
+    Scanner entrada;
+    int num1;
+    int a;
+    //inicializando obj
+    entrada= new Scanner(System.in);
+    System.out.println("Digite um número:");
+    //lendo variável
+    num1= entrada.nextInt();
+    //calculo
+    a= (num1*num1);
+    //exibição
+    System.out.println("O resultado é:" + a);
+	}
+}
