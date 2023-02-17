@@ -10,4 +10,4 @@ Repositório criado para armazenar os códigos feitos em linguagem Java durante 
 
 ##  Apoio
 
-Dê uma ⭐️ se gosotu desse Repositório!
+Dê uma ⭐️ se gosotu desse repositório!
