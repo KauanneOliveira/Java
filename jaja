@@ -1,16 +1,14 @@
-public class Teste {
-	public static void main( String args[]) {
-		
-		Pessoa p1 = new Pessoa();
-		
-		Pessoa p2 = new Pessoa("Bernado", 9, 6, 1972);
-		
-		System.out.print( p2.toString() );
-		
-		Aluno a1 = new Aluno();
-		
-		Aluno a2 = new Aluno("Bernado", 9, 6, 1972, "sp12345");
-		
-		System.out.print( a2.toString() );
-	}
+#include<stdio.h>
+#include<conio.h>
+#include<locale.h>
+
+int main(){
+	setlocale(LC_ALL, "portuguese");
+	float D,R;
+	printf("\nEscreva o valor em reais:\n");
+	scanf("%f", &R);
+	D= R/2.40;
+	printf("\nO valor em dolar é:\n\t%.2f", D);
+	getch();
+	return 0;
 }
